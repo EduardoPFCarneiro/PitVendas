@@ -1,0 +1,12 @@
+# Normaliza quebras de linha: LF no repositorio, evitando diffs falsos entre
+# maquinas Windows e Linux.
+* text=auto eol=lf
+
+# Arquivos binarios: nunca normalizar
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+*.zip binary
+*.woff binary
+*.woff2 binary
